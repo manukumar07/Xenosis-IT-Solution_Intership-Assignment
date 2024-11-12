@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-openSans;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-lato;
+}
+
+.job-listing,
+.job-description {
+  @apply font-roboto;
+}
